@@ -30,3 +30,15 @@ li {
   list-style: none;
   font-size: 10px;
 }
+
+.menuSymbol {
+  background-color: lightseagreen;
+}
+
+.menuMobile {
+  visibility: hidden;
+}
+
+.menuSymbol:hover .menuMobile {
+  visibility: visible;
+}
